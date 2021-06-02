@@ -20,6 +20,5 @@ Two graphs will be generated, one with the throughput along the time, and other 
 
 ## Throughput
 ![Throughput](results/sample_throughput.png)
-log_throughput
 ## Total bytes
 ![Total bytes](results/sample_total_bytes.png)
