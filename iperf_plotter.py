@@ -18,7 +18,7 @@ time_intervals = json_data['intervals']
 time_intervals_sum = [item['sum'] for item in time_intervals]
 
 date = json_data['start']['timestamp']['timesecs']
-date = datetime.datetime.utcfromtimestamp(date)
+date = datetime.datetime.fromtimestamp(date)
 
 start_time = [int(item['start']) for item in time_intervals_sum]
 end_time = [int(item['end']) for item in time_intervals_sum]
