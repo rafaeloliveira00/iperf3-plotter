@@ -19,7 +19,7 @@ python3 iperf_plotter.py sample.json
 Two graphs will be generated, one with the throughput along the time, and other with the number of Megabytes sent.
 
 ## Throughput
-![Throughput](results/log_throughput.png)
-
+![Throughput](results/sample_throughput.png)
+log_throughput
 ## Total bytes
-![Total bytes](results/log_total_bytes.png)
+![Total bytes](results/sample_total_bytes.png)
