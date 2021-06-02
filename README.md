@@ -9,10 +9,10 @@ pip install matplot
 ```
 
 # Usage
-Sample output is provided (log.json) to plot it run:
+Sample output is provided (sample.json) to plot it run:
 
 ```
-python3 iperf_plotter.py log.json
+python3 iperf_plotter.py sample.json
 ```
 
 # Results
